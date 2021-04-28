@@ -7,8 +7,10 @@ Implemented distributed tracing by following the below links -
 https://guides.micronaut.io/micronaut-microservices-distributed-tracing-jaeger/guide/index.html
 
 ## Zipkin:
-
 https://guides.micronaut.io/micronaut-microservices-distributed-tracing-zipkin-groovy/guide/index.html
+
+## Micrometer:
+https://micronaut-projects.github.io/micronaut-micrometer/latest/guide/
 
 ### Screenshots
 All the testing and output screenshots are in screenshots folder
@@ -38,6 +40,14 @@ All the testing and output screenshots are in screenshots folder
 
 4. Zipkin UI showing book inventory span for one isbn
 ![ ](/screenshots/books-stock-isbn-span-zipkin-tracing.png?raw=true "Zipkin UI showing isbn span")
+
+### Micrometer:
+1.  Micrometer using Prometheus showing book catalogue service metrics
+![ ](/screenshots/micrometer-prometheus-service-running.png?raw=true "Micrometer with promentheus")
+
+2. Micrometer Prometheus monitoring output
+![ ](/screenshots/micrometer-prometheus-output.png?raw=true "Micrometer Prometheus monitoring output")
+
 
 
 
